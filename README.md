@@ -2,7 +2,7 @@
 
 # VERSION CONTROL
 
-This is the domonstration of using gitbash for version control that enables you track your document making sure the are the correct version keeping them up to date.
+This is the demonstration of using gitbash for version control that enables you track your document making sure the are the correct version keeping them up to date.
 
 ---
 
@@ -30,12 +30,13 @@ mkdir dir1
 touch index.html
 ```
 
+
 Creating a folder and a file
 
 ```bash
 git init
 
-git .
+git add .
 
 git add README.md
 
@@ -47,4 +48,3 @@ git remote add origin https://github.com/your-username/your-repo.git
 
 git push -u origin main
 ```
-git push -u origin main
